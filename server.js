@@ -4,7 +4,7 @@ var app=express()
 var mongojs = require('mongojs')
 let alert = require('alert');
 
-var cString='mongodb+srv://sandeep2162:dora23456@vishnubot.qidvy.mongodb.net/VishnuBot?retryWrites=true&w=majority'
+var cString='mongodb+srv://mahesh:mahesh@cluster0.qe4fh.mongodb.net/VishnuBot?retryWrites=true&w=majority'
 
 var db = mongojs(cString, ['calendar'])
 
